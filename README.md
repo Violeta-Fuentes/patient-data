@@ -48,9 +48,9 @@ This will start a server at http://localhost:3000/ where you can view the applic
 ✔ Success and error notifications without external libraries.
 
 
-🎨 Design Decisions & Tools Used
+# Design Decisions & Tools Used 
 
-Design Decisions:
+🎨 Design Decisions:
 
 * React & Redux: Used for state management and component-based architecture, making it easier to handle user data updates dynamically.
 
@@ -62,7 +62,7 @@ Design Decisions:
 
 * Notifications System: Custom success and error messages are implemented without third-party libraries for better control over UI feedback.
 
-Tools & Libraries Used:
+🎨 Tools & Libraries Used:
 
 * React: Core library for building the UI.
 
