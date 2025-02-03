@@ -12,12 +12,11 @@ Before starting, make sure you have the following installed:
 * A code editor like VS Code
 
 
-📥 Clone the Repository
+📥 # Clone the repository
 
 To download the source code from GitHub, open a terminal and run the following command:
 
-# Clone the repository
-[git clone https://github.com/Violeta-Fuentes/patient-data.git
+git clone https://github.com/Violeta-Fuentes/patient-data.git
 
 # Navigate to the project directory
 cd patient-data
