@@ -1,0 +1,20 @@
+.notificationSuccess {
+  position: "absolute";
+  top: -50px;
+  left: 50%;
+  transform: "translateX(-50%)";
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  background-color: green;
+}
+.notificationError {
+  position: "absolute";
+  top: -50px;
+  left: 50%;
+  transform: "translateX(-50%)";
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  background-color: red;
+}

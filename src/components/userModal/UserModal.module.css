@@ -1,0 +1,43 @@
+.name {
+  text-align: center;
+}
+.avatar {
+  width: 120px;
+  border-radius: 50%;
+  height: 120px;
+}
+.web {
+  margin-left: 5px;
+}
+.close {
+  background-color: indianred;
+  color: white;
+  margin-left: 10px;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-color: indianred;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.expandable {
+  background-color: #1d212f;
+  color: white;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-color: #1d212f;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.edit {
+  background-color: darkseagreen;
+  border-color: darkseagreen;
+  color: white;
+  margin-left: 13%;
+  width: 300px;
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 20px;
+}

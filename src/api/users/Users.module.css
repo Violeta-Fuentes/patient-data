@@ -1,0 +1,27 @@
+.button {
+  background-color: darkseagreen;
+  border-radius: 50px;
+  padding: 15px;
+  color: white;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-color: darkseagreen;
+  position: absolute;
+  right: 0;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+.list {
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.title {
+  color: white;
+  padding-top: 70px;
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}

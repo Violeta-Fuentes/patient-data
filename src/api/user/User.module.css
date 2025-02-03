@@ -1,0 +1,54 @@
+.container {
+  max-width: 100vh;
+  margin-right: auto;
+  margin-left: auto;
+  padding: "20px";
+  background-color: #1d212f;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 100vh;
+}
+.form {
+  background-color: white;
+  display: "flex";
+  flex-direction: "column";
+  gap: 10px;
+  padding-left: 20px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  width: 600px;
+  margin-top: 50px;
+}
+.label {
+  color: #1d212f;
+}
+.input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+.title {
+  color: white;
+  padding-top: 40px;
+}
+.description {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  height: 90px;
+  margin-top: 5px;
+}
+.button {
+  background-color: darkseagreen;
+  border-color: darkseagreen;
+  color: white;
+  margin-left: 160px;
+  width: 300px;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  margin-top: 20px;
+}
