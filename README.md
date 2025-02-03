@@ -12,7 +12,7 @@ Before starting, make sure you have the following installed:
 * A code editor like VS Code
 
 
-📥 # Clone the repository
+📥 Clone the repository
 
 To download the source code from GitHub, open a terminal and run the following command:
 
