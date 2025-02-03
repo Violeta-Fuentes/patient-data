@@ -46,3 +46,32 @@ This will start a server at http://localhost:3000/ where you can view the applic
 ✔ Add new users.
 ✔ Form validations.
 ✔ Success and error notifications without external libraries.
+
+
+🎨 Design Decisions & Tools Used
+
+Design Decisions:
+
+* React & Redux: Used for state management and component-based architecture, making it easier to handle user data updates dynamically.
+
+* Modular Structure: Components and Redux slices are organized into separate folders to improve maintainability and scalability.
+
+* Form Validations: Implemented without external libraries to ensure user input integrity while keeping the project lightweight.
+
+* Dynamic Modal: The modal adjusts its height based on content, improving user experience.
+
+* Notifications System: Custom success and error messages are implemented without third-party libraries for better control over UI feedback.
+
+Tools & Libraries Used:
+
+* React: Core library for building the UI.
+
+* Redux: State management solution for handling user data and application state.
+
+* Redux Toolkit: Simplifies Redux implementation and improves performance.
+
+* React Hooks: Used for managing component state efficiently.
+
+* Fetch API: Built-in method for making API requests.
+
+* CSS Modules: Provides scoped styles to prevent conflicts.
