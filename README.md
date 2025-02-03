@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+patient-data
+This project is a React application that uses Redux for state management and allows listing, viewing details, editing, and adding users by consuming the API https://63bedcf7f5cfc0949b634fc8.mockapi.io/users.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚀 Prerequisites
 
-## Available Scripts
+Before starting, make sure you have the following installed:
 
-In the project directory, you can run:
+Node.js (version 14 or higher)
 
-### `npm start`
+Git
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+A code editor like VS Code
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+📥 Clone the repository
 
-### `npm test`
+To download the source code from GitHub, open a terminal and run the following command:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+git clone https://github.com/Violeta-Fuentes/patient-data.git
 
-### `npm run build`
+Navigate to the project directory
+cd patient-data
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+📦 Install Dependencies
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Run the following command to install the necessary dependencies:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+npm install
 
-### `npm run eject`
+🏃‍♂️ Run the Project
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To start the application in development mode, use the following command:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This will start a server at http://localhost:3000/ where you can view the application in your browser.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+✅ Main Features
 
-## Learn More
+✔ List users retrieved from the API. ✔ View user details in a modal. ✔ Edit user data. ✔ Add new users. ✔ Form validations. ✔ Success and error notifications without external libraries.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Design Decisions & Tools Used
+🎨 Design Decisions:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+React & Redux: Used for state management and component-based architecture, making it easier to handle user data updates dynamically.
 
-### Code Splitting
+Modular Structure: Components and Redux slices are organized into separate folders to improve maintainability and scalability.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Form Validations: Implemented without external libraries to ensure user input integrity while keeping the project lightweight.
 
-### Analyzing the Bundle Size
+Dynamic Modal: The modal adjusts its height based on content, improving user experience.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Notifications System: Custom success and error messages are implemented without third-party libraries for better control over UI feedback.
 
-### Making a Progressive Web App
+🎨 Tools & Libraries Used:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+React: Core library for building the UI.
 
-### Advanced Configuration
+Redux: State management solution for handling user data and application state.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Redux Toolkit: Simplifies Redux implementation and improves performance.
 
-### Deployment
+React Hooks: Used for managing component state efficiently.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Fetch API: Built-in method for making API requests.
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+CSS Modules: Provides scoped styles to prevent conflicts.
